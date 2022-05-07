@@ -1,0 +1,61 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background: #171a21;
+    padding: 13px 8px;
+    
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171a21;
+    
+}
+
+
+body {
+    background: var(--preto);
+    color:white;
+    
+}
+body .carrosel{
+    margin-left:18%;
+}
+.carrosel{
+    display: block;
+    width: 50%;
+    margin-top: 10px;   
+}
+.logo{
+    color: var(--vermelho);
+    margin-left: 10px;
+    font-size: 45px;
+}
+header a {
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color:#aaa;
+}
+h3{
+    margin-left: 250px;
+    font-size: 30px;
+}
+.descricao{
+    font-size: 20px;
+    padding-right: 50%;
+    margin-left: 10px;
+}
+
+
+
+
